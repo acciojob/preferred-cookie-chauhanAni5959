@@ -6,4 +6,28 @@
 body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: bold;
+}
+
+input[type=number],
+input[type=color],
+input[type=submit] {
+  padding: 6px;
+  font-size: 1em;
+}
+
+input[type=submit] {
+  margin-top: 10px;
+  cursor: pointer;
 }
